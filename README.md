@@ -8,7 +8,7 @@ Netcat est généralement déjà installé sur les systèmes Linux et macOS, mai
 
 ### Utilisation
 
-# 1. Lancer le port / ou si vous souhaitez vous pouvez lui donner un numéro de port
+#### 1. Lancer le port / ou si vous souhaitez vous pouvez lui donner un numéro de port
 ```
 go run .
 
@@ -16,13 +16,13 @@ go run . <numéro du port>
 
 ```
 
-# 2. Ouvrir une nouvelle page dans votre terminal pour lancer le serveur
+#### 2. Ouvrir une nouvelle page dans votre terminal pour lancer le serveur
 ```
 nc localhost <numéro du port>
 
 ```
 
-# 3. Chater avec d'autre personne (une fois le serveur lancer sur votre nouvelle page vous devez lancer le serveur avec votre adressIP)
+#### 3. Chater avec d'autre personne (une fois le serveur lancer sur votre nouvelle page vous devez lancer le serveur avec votre adressIP)
 
 ```
 nc <adressIP> <numéro du port>
